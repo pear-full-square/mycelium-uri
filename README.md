@@ -6,10 +6,10 @@ Generic: no git, no dependencies. A URI is absolute and `/`-separated,
 without scheme, query or fragment; its canonical form is lowercase. A
 URI in a request is relative: the same segments, no leading slash.
 
-| | |
-|---|---|
-| [lib/](lib/) | its parts, a file each |
-| [test/](test/) | its tests, what each checks |
+## Links
+
+- [lib](lib/)
+- [test](test/)
 
 ## Design
 
