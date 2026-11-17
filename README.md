@@ -13,11 +13,11 @@ URI in a request is relative: the same segments, no leading slash.
 
 ## Design
 
-URIs are case-insensitive, and the canonical form is lowercase. Inside our
-repositories every name is lowercase, files included. External content may
-keep its own case (`README.md`), and a URI in any case finds it through
-the boundary's lookup (`sameName`). Every URI starts with a
-branch name, from the root: `/main/x/y`, `/overlay/config/x/y`.
+The rules a URI follows are the base family's URI documentation
+(`haiccing/base-docs-uri`). Here, how they are kept: one validator, at
+the boundary, for names and URIs alike; a URI in any case finds external
+content through the boundary's lookup (`sameName`), the canonical form
+lowercase.
 
 ## API
 
